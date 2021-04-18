@@ -5,11 +5,11 @@ public class ADO1_Q2 {
 	public static void main(String[] args) {
 		System.out.println("Vamos descobrir sua idade total em dias?");
 		
-		System.out.print("Dia do mês atual: ");
+		System.out.print("Dia do mÃªs atual: ");
 		Scanner teclado = new Scanner(System.in);
 		int d1 = teclado.nextInt();
 		
-		System.out.print("Mês atual:  ");
+		System.out.print("MÃªs atual:  ");
 		Scanner teclado1 = new Scanner(System.in);
 		int m1 = teclado.nextInt();
 		
@@ -18,9 +18,9 @@ public class ADO1_Q2 {
 		int a1 = teclado.nextInt();
 
 		int amd;
-		amd = ((a1 * 365) + (30 * m1) + d1);
-		System.out.println("Você tem " + amd + " dias de idade!");
+		amd = ((a1 * 365) + (30 * m1 - 30) + d1);
+		System.out.println("VocÃª tem " + amd + " dias de idade!");
 	}
 
 }
-// código pronto.
+// cÃ³digo pronto.
